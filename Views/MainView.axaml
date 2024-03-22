@@ -14,152 +14,160 @@
 
 
     <Viewbox>
-        <StackPanel Orientation="Vertical" Spacing="20">
+        <StackPanel Orientation="Vertical" Spacing="10">
             <TextBlock HorizontalAlignment="Center">Укажите коээфициенты полинома для рассчета CRC-32</TextBlock>
             <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*,*,*,*,*,*" Margin="60,10">
 
                 <!--First Row-->
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="0" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[31]}"/>
-                    <TextBlock VerticalAlignment="Center">X³²</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X³¹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="1" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[30]}"/>
-                    <TextBlock VerticalAlignment="Center">X³¹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X³⁰</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="2" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[29]}"/>
-                    <TextBlock VerticalAlignment="Center">X³⁰</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="3" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[28]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁸</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="4" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[27]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁸</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁷</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="5" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[26]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁷</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁶</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="6" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[25]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁶</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁵</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="7" Grid.Row="0">
                     <CheckBox IsChecked="{Binding PolyValue[24]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁵</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁴</TextBlock>
                 </StackPanel>
 
                 <!--Second Row-->
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="0" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[23]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁴</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²³</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="1" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[22]}"/>
-                    <TextBlock VerticalAlignment="Center">X²³</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²²</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="2" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[21]}"/>
-                    <TextBlock VerticalAlignment="Center">X²²</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²¹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="3" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[20]}"/>
-                    <TextBlock VerticalAlignment="Center">X²¹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²⁰</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="4" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[19]}"/>
-                    <TextBlock VerticalAlignment="Center">X²⁰</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="5" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[18]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁸</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="6" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[17]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁸</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁷</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="7" Grid.Row="1">
                     <CheckBox IsChecked="{Binding PolyValue[16]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁷</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁶</TextBlock>
                 </StackPanel>
 
                 <!--Thried Row-->
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="0" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[15]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁶</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁵</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="1" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[14]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁵</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁴</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="2" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[13]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁴</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹³</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="3" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[12]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹³</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹²</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="4" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[11]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹²</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹¹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="5" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[10]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹¹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹⁰</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="6" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[9]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹⁰</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="7" Grid.Row="2">
                     <CheckBox IsChecked="{Binding PolyValue[8]}"/>
-                    <TextBlock VerticalAlignment="Center">X⁹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁸</TextBlock>
                 </StackPanel>
 
                 <!--Fourth Row-->
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="0" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[7]}"/>
-                    <TextBlock VerticalAlignment="Center">X⁸</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁷</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="1" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[6]}"/>
-                    <TextBlock VerticalAlignment="Center">X⁷</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁶</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="2" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[5]}"/>
-                    <TextBlock VerticalAlignment="Center">X⁶</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁵</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="3" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[4]}"/>
-                    <TextBlock VerticalAlignment="Center">X⁵</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁴</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="4" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[3]}"/>
-                    <TextBlock VerticalAlignment="Center">X⁴</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X³</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="5" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[2]}"/>
-                    <TextBlock VerticalAlignment="Center">X³</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X²</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="6" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[1]}"/>
-                    <TextBlock VerticalAlignment="Center">X²</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X¹</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Spacing="5" Grid.Column="7" Grid.Row="3">
                     <CheckBox IsChecked="{Binding PolyValue[0]}"/>
-                    <TextBlock VerticalAlignment="Center">X¹</TextBlock>
+                    <TextBlock VerticalAlignment="Center">X⁰</TextBlock>
                 </StackPanel>
             </Grid>
 
             <TextBlock HorizontalAlignment="Center">Полином:</TextBlock>
             <TextBlock HorizontalAlignment="Center" Text="{Binding Polynom}"/>
 
+            <ToggleSwitch IsChecked="{Binding IsReverse}" HorizontalAlignment="Center"
+                          OffContent="Прямой" OnContent="Реверсивный"/>
+
+            <TextBlock HorizontalAlignment="Center">Данные:</TextBlock>
+            <TextBox HorizontalAlignment="Center" Text="{Binding InputData}" Width="200"/>
+
             <Button Command="{Binding Generate}" Content="Сгенерировать" Background="LimeGreen"
-                    ToolTip.Tip="Сгенерировать Verilog-файл" HorizontalAlignment="Center"/>
+                    ToolTip.Tip="Сгенерировать CRC" HorizontalAlignment="Center"/>
+
+            <TextBox HorizontalAlignment="Center" Text="{Binding OutputData}" Width="200"/>
         </StackPanel>
     </Viewbox>
 </UserControl>
